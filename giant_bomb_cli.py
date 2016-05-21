@@ -27,6 +27,9 @@ video_types =   {   2	: "Video Reviews",
                     17	: "Metal Gear Scanlon",
                     18	: "VinnyVania, Premium",
                     19	: "Breaking Brad, Premium",
+                    20  : "Best of Giant Bomb",
+                    21  : "Game Tapes",
+                    22  : "Project B.E.A.S.T.",
                 }
 
 video_qualities = {  "low",
