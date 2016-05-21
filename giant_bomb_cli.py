@@ -177,7 +177,7 @@ def download_video(url, filename):
     api_key = get_api_key();
     gb_log(colours.Title, "Downloading " + url + " to " + filename)
     try:
-        call(["wget", "--user-agent", "@Dprotp DLing videos to personal SMB share", url + "?api_key=" + api_key, "-c", "-O", filename])
+        call(["wget", "--user-agent", "downloading via giant_bomb_cli", url + "?api_key=" + api_key, "-c", "-O", filename])
     except Exception:
         gb_log(colours.Error, "Something has gone wrong whilst trying to download, is wget installed?")
 
